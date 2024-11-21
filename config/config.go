@@ -62,12 +62,3 @@ func New() (Config, error) {
 	}
 	return cfg, nil
 }
-
-func NewTest(path string) (Config, error) {
-	cfg := Config{}
-	err := cleanenv.ReadConfig(path, &cfg)
-	if err != nil {
-		return cfg, err
-	}
-	return cfg, nil
-}

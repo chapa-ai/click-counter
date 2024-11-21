@@ -2,7 +2,7 @@ package repository
 
 import (
 	"click-counter/config"
-	"errors"
+	"click-counter/pkg/errors"
 	"fmt"
 	"github.com/golang-migrate/migrate/v4"
 	_ "github.com/golang-migrate/migrate/v4/database/postgres"
