@@ -1,0 +1,1 @@
+DELETE FROM banners WHERE id BETWEEN 1 AND 10;

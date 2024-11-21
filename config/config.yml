@@ -1,0 +1,10 @@
+app:
+  port: 9999
+db:
+  host: postgres
+  port: 5432
+  pass: postgres
+  name: postgres
+  maxConn: 50
+  maxIdle: 10
+  schema: public
