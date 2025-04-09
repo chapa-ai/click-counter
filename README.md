@@ -16,6 +16,7 @@ API server for counting clicks on banners and collecting click statistics.
 
 ## HOWTO
 
+- :hammer_and_wrench: Clean up dependencies with `make tidy`
 - :running_man: Run app in Docker Compose with `make run`
 - :elephant: Launch test  with `go test ./test/click_test.go`
 - :computer: API Endpoints:

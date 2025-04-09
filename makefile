@@ -1,5 +1,5 @@
 run:
 	docker-compose build && docker-compose up
 
-mod:
+tidy:
 	go mod tidy
